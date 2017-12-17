@@ -11,9 +11,6 @@ class BowlingCalculator {
 
     private var rolls: IntArray = IntArray(NUMBER_OF_ROLLS, { 0 })
 
-    init {
-    }
-
     private fun calculateScore() {
         score = 0
         var rollIndex = 0
